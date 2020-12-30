@@ -2,6 +2,7 @@ param (
     [Parameter(Mandatory = $true)][String]$Path,
     [String]$TargetPath = "$($HOME)\Desktop"
 )
+
 function Get-Path-Exists() {
     [OutputType([Boolean])]
     param (
